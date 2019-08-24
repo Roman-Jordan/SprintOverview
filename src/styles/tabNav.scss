@@ -1,7 +1,13 @@
 .TabNav{
     background:#fff;
-    max-width:800px;
+    max-width:1000px;
     margin:auto;
     padding:20px;
     border-radius: 5px;
+    
+    .CharList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
